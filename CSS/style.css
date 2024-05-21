@@ -1,0 +1,121 @@
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 25%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://img.freepik.com/free-vector/fantasy-landscape-with-castle-night_107791-20005.jpg?t=st=1711416106~exp=1711419706~hmac=93211b9ef4510f8a4951e644d361dad8a552c1df5c95257812126bfc513044c0&w=1380);
+    background-size: cover;
+    
+}
+.Julian {
+    font-style: italic;
+    color:rgb(247, 242, 244);
+
+}
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+.btn-brand {
+    background-color: rgb(236, 240, 240);
+}
+.btn-brand:hover {
+    background-color: transparent;
+    color: aquamarine;
+    border-color:white;
+}
+.Donna {
+    color:rgb(18, 2, 10);
+}
+section {
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+#about {
+    min-height: 100vh;
+    background: url(https://img.freepik.com/free-photo/beautiful-sunset-vegetation-landscape_23-2149134295.jpg?t=st=1710820047~exp=1710823647~hmac=e3e25e615a06a217510c258bba379c9cb615d46d7636c9243a8d533be80cf17e&w=1380);
+    background-size: cover;
+    
+}
+#Services {
+    min-height: 100vh;
+    background: url(https://img.freepik.com/free-vector/gradient-tropical-sunset-background_52683-131604.jpg?t=st=1711075876~exp=1711079476~hmac=b2942912a511e932d9d8ee255e906b854d076d80ea3ec8c39277fcd9ec5d1dcb&w=1380);
+    background-size: cover;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icon-img-box {
+    width: 40%;
+}
+.card {
+    transition: background-color 0.3s, 0.3s;
+}
+
+.card:hover {
+    background-color: rgb(104, 57, 90);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: aliceblue;
+}
+
+.btn-outlined-brand {
+    color: #f2b03f;
+    background-color: transparent;
+    border-color: #f705f7;
+
+}
+
+.btn-outlined-brand:hover {
+    background-color: #f2b03f;
+}
+#cta {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 25%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://img.freepik.com/free-vector/fantasy-landscape-with-castle-night_107791-20005.jpg?t=st=1711416106~exp=1711419706~hmac=93211b9ef4510f8a4951e644d361dad8a552c1df5c95257812126bfc513044c0&w=1380);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.donya {
+    color: white;
+}
+.h3 {
+    color: white;
+}
+.testimonials {
+    background-color: var(--bg2);
+    padding: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+#reviews a {
+    color: var(--brand);
+
+}
+:root {
+    --bg1: rgb(184, 198, 238);
+    --bg2: rgb(75, 63, 63);
+    --body: rgb(8, 1, 1);
+    --brand: orange;
+    --white: rgb(199, 144, 144);
+    --p: gray;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+h3 {
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
